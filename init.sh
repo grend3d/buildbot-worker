@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [-z "$1" -o -z "$2"]; then
+if [ -z "$1" -o -z "$2" ]; then
 	echo "Usage: $0 [master host] [worker name] [worker password (optional)]"
 	exit;
 fi
@@ -9,7 +9,7 @@ MASTER_HOST="$1"
 WORKER_NAME="$2"
 WORKER_PASS="passvvord"
 
-if [-n "$3"]; then
+if [ -n "$3" ]; then
 	WORKER_PASS="$3"
 fi
 
