@@ -1,0 +1,13 @@
+attrs==20.3.0
+Automat==20.2.0
+buildbot-worker==2.10.1
+constantly==15.1.0
+future==0.18.2
+hyperlink==21.0.0
+idna==3.1
+incremental==17.5.0
+PyHamcrest==2.0.2
+setuptools-trial==0.6.0
+six==1.15.0
+Twisted==20.3.0
+zope.interface==5.2.0
